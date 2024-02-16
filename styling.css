@@ -1,0 +1,81 @@
+body
+{
+    /* this ensures that the nav bar sticks to the top */
+    margin: 0%; 
+}
+
+/* vw used for measurement, make site resposive */
+h1
+{
+    margin: 0%;
+}
+.title
+{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    padding: 4vw;
+    background-color: #ea71b3;
+    color: white;
+    margin: 0px, 0px;
+}
+nav
+{
+    background-color: #333233;
+    padding: 2vw;
+    border: 0%;
+    margin: 0%;
+    text-align: center;
+    box-shadow: slategray;
+    box-shadow: 10ch;
+    position: sticky;
+    /* sticky makes nav bar stick to the top */
+    /* sticky sticks to the parent element */
+    top: 0px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    padding: 2vw; /* hover thing fits only with this padding: ; */
+    font-size: larger;
+    /* height: fit-content; */
+    text-align: center;
+}
+
+a:hover
+{
+    /* background-color: #ea71b3; */
+    color: #ea71b3;
+}
+
+#Home
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: large;
+}
+
+#AboutUs
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: large;
+
+    
+}
+
+#Contact
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: large;    
+}
+
+main
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 65%;
+}
+
